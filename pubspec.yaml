@@ -1,0 +1,36 @@
+name: abdul_hafeez_portfolio
+description: "Abdul Hafeez - Flutter Developer Portfolio (Clean Architecture)"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # Navigation
+  go_router: ^14.2.0
+
+  # State management
+  provider: ^6.1.2
+
+  # Links (email / phone / linkedin / github / resume)
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/resume/
+
+  # To add a custom font, drop the .ttf files in assets/fonts/ and
+  # declare a `fonts:` section here, then set fontFamily in app_theme.dart.
