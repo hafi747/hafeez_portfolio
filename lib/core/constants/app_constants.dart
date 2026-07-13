@@ -30,6 +30,6 @@ class AppConstants {
   static const String resumeUrl = 'https://github.com/hafi747';
 
   static const String location = 'Pakistan';
-  static const int yearsExperience = 2;
+  static const int yearsExperience = 1;
   static const int projectsCompleted = 8;
 }
